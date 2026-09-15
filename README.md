@@ -34,14 +34,14 @@ Source: Jigsaw Toxic Comment Classification Challenge
 The dataset contains comments labelled for different forms of toxicity.
 
 Key attributes
-id
-comment_text
-toxic
-severe_toxic
-obscene
-threat
-insult
-identity_hate
+- id
+- comment_text
+- toxic
+- severe_toxic
+- obscene
+- threat
+- insult
+- identity_hate
 # Data used in this project
 
 The project uses the first 200 rows of the original train.csv dataset for the latent probing experiment.
@@ -52,11 +52,7 @@ df = pd.read_csv(url).head(200)
 
 The resulting dataset is stored in the repository's data/ directory.
 
-Important: We should only say the resulting dataset is stored there after you've actually uploaded the CSV.
-
 # 🧠 Latent Probing Approach
-
-This is the section that is particularly important for your project.
 
 What is latent probing?
 
@@ -105,8 +101,6 @@ F1-score
 
 We also compare performance across different Gemma layers to determine where toxicity-related information appears to be most accessible.
 
-We'll put your actual results here once your team has finished the experiments.
-
 # 🧩 Experimental Workflow
 Jigsaw Dataset
       ↓
@@ -143,8 +137,8 @@ This project was developed as part of the AI Saturdays Lagos Machine Learning Pr
 
 # 🔗 References
 
-Jigsaw Toxic Comment Classification Challenge
-Hugging Face dataset repository
-Gemma documentation/paper
-Relevant latent probing / interpretability research
-AI Saturdays Lagos
+- Jigsaw Toxic Comment Classification Challenge
+- Hugging Face dataset repository
+- Gemma documentation/paper
+- Relevant latent probing / interpretability research
+- AI Saturdays Lagos
