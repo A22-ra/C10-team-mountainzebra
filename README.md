@@ -17,16 +17,16 @@ The goal is to better understand where and how toxicity-related information is r
 - Evaluate the effectiveness of latent representations for toxicity detection.
 - Investigate the relationship between model depth and the accessibility of toxicity-related information.
 # ⚙️ Tools & Libraries
--Python
--Pandas
--NumPy
--Scikit-learn
--PyTorch
--Hugging Face Transformers
--Gemma
--Google Colab
--Jupyter Notebooks
--Matplotlib / Seaborn
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- PyTorch
+- Hugging Face Transformers
+- Gemma
+- Google Colab
+- Jupyter Notebooks
+- Matplotlib / Seaborn
 # 📊 Dataset
 
 Source: Jigsaw Toxic Comment Classification Challenge
